@@ -1,5 +1,11 @@
-@import './header.css';
+/*font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
+/*components */
+@import './header.css';
+@import './buttons.css';
+
+/*Reset Css */
 *{
     margin: 0;
     padding: 0;
@@ -7,4 +13,11 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
+    font-family: "Source Sans 3", serif;
+}
+
+.container{
+    width: 1024px;
+    margin: 30px auto;
 }

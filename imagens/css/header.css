@@ -1,18 +1,21 @@
 header{
-    width: 1024px;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 1024px;
+    margin: 30px auto;
 }
 
 header nav ul{
     display: flex;
     flex-direction: row;
     list-style: none;
+    align-items: center;
 }
 
-header nav ul li{
+header nav ul li a{
 padding: 0 15px;
+color: #3399cc;
 }
+
